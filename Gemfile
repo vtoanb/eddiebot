@@ -2,8 +2,9 @@ source 'http://rubygems.org'
 
 gem 'celluloid-io'
 gem 'sinatra', '2.0.0.beta2'
+gem 'dotenv-rails', :groups => [:development, :test]
 
-gem 'dotenv-rails'
+# gem 'dotenv-rails'
 gem 'slack-ruby-bot'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'

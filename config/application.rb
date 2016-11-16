@@ -13,3 +13,8 @@ module Slackbot
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+
+Dotenv::Railtie.load
+
+SLACK_API_TOKEN = ENV['xoxp-105386667188-105386667348-105244393347-029fc5f455092d06449a5ca4c353b99f']
