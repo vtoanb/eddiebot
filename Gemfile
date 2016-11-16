@@ -1,6 +1,10 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
+gem 'celluloid-io'
+gem 'sinatra'
 
+gem 'dotenv-rails'
+gem 'slack-ruby-bot'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use postgresql as the database for Active Record
@@ -33,7 +37,10 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'rake'
+  gem 'foreman'
 end
+
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
