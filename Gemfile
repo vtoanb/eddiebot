@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'celluloid-io'
-gem 'sinatra', '2.0.0.beta2'
+gem 'sinatra', '2.2.0'
 
 gem 'dotenv-rails'
 gem 'slack-ruby-bot'
